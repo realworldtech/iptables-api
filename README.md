@@ -14,11 +14,13 @@ go build -o iptables-api
 Install:
 -------
 Get latest releases from [Github Release](/releases)
-`# tar zxvf <release>`
-`# ./install.sh`
-`# htpasswd -c /etc/iptables-api/htpasswd myapiuser`
-`# systemctl enable iptables-api.service`
-`# systemctl start iptables-api`
+```
+# tar zxvf <release>
+# ./install.sh
+# htpasswd -c /etc/iptables-api/htpasswd myapiuser
+# systemctl enable iptables-api.service
+# systemctl start iptables-api
+```
 
 You should see it running on port 7898 - Expecting a .htpasswd in /etc/iptables-api/htpasswd
 
