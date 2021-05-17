@@ -49,7 +49,7 @@ jobs:
       - name: Build
         run: go build -o ${REPO_NAME}
       - name: Create archive
-        run: tar -czvf ${REPO_NAME}_${RELEASE_VERSION}_linux_amd64.tar.gz ${REPO_NAME}
+        run: tar -czvf ${REPO_NAME}_${RELEASE_VERSION}_linux_amd64.tar.gz ${REPO_NAME} install.sh systemd/iptables-api.service
       - name: Upload archive to release
         uses: svenstaro/upload-release-action@v1-release
         with:
