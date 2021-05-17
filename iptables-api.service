@@ -10,9 +10,8 @@ LimitNOFILE=1024
 
 Restart=on-failure
 RestartSec=10
-startLimitIntervalSec=60
 
-ExecStart=/usr/local/bin/iptables-api -htpasswd /etc/iptables-api/htpasswd -ip 0.0.0.0 -p 7898 -log=/var/log/iptables-api/access.log 
+ExecStart=/usr/local/bin/iptables-api -htpasswd /etc/iptables-api/htpasswd -ip 0.0.0.0 -port 7898 -log=/var/log/iptables-api/access.log 
 
 # make sure log directory exists and owned by syslog
 PermissionsStartOnly=true
