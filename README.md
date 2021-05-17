@@ -13,7 +13,7 @@ go build -o iptables-api
 
 Install:
 -------
-Get latest releases from [Github Release](/releases)
+Get latest releases from [Github Release](https://github.com/realworldtech/iptables-api/releases)
 ```
 # tar zxvf <release>
 # ./install.sh
