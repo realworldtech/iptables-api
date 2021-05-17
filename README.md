@@ -1,5 +1,5 @@
 # iptables-api
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/jeremmfr/iptables-api)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/realworldtech/iptables-api)
 [![Go Status](https://github.com/jeremmfr/iptables-api/workflows/Go%20Tests/badge.svg)](https://github.com/jeremmfr/iptables-api/actions)
 [![Lint Status](https://github.com/jeremmfr/iptables-api/workflows/GolangCI-Lint/badge.svg)](https://github.com/jeremmfr/iptables-api/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jeremmfr/iptables-api)](https://goreportcard.com/report/github.com/jeremmfr/iptables-api)
